@@ -1,0 +1,679 @@
+body{
+    background-color: #F5F5F5;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+.procard{
+    width: 18%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    height: 420px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.proimg{
+    width: 250px;
+    margin: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.proname{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #5EA45C ;
+
+}
+
+.btnedit{
+    width: 60px;
+    height: 30px;
+    background-color:rgb(48, 135, 169);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.btndlt{
+    width: 60px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.main8{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;}
+.part1{
+    width: 29%;
+
+}
+.part2{
+    width: 19%;
+    }
+.popular{
+    margin-top:30px;
+    font-family:"Roboto", serif ;
+    font-size: 18px;
+    font-weight:bold;
+    line-height:29px;
+    color: white;
+    display: block;
+}
+.apop{    
+    font-family:"Roboto", serif ;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 6px;
+}
+.apop:hover{
+    text-decoration: none;
+    color: #5EA45C;
+}
+.part3{
+    width: 19%;
+}
+.part4{
+    width: 29%;
+
+}
+.logo{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+hr{
+    width: 35px;
+    border: 1px solid #5EA45C;
+}
+.lastp{
+    font-family:"Roboto", serif ;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: -3px;
+    margin-left: 15px;
+
+}
+.pimg{
+    display: flex;
+    margin-top: 5px;
+}
+.iicon{
+    width: 25px;
+    height: 25px;
+}
+.fa-instagram{
+    color: azure;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.insta{
+    text-decoration: none;
+}
+.fa-facebook-f{
+    color: azure;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.facebook{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .procard{
+        width: 18%;
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 20px;
+        height: 350px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .proimg{
+        width:150px;
+        margin: auto;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .btnedit{
+        width: 40px;
+        height: 30px;
+        background-color:rgb(48, 135, 169);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .btndlt{
+        width: 40px;
+        height: 30px;
+        background-color:red;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .proname{
+        margin-top: 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #5EA45C;
+    }
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;}
+    .part1{
+        width: 29%;
+    
+    }
+    .part2{
+        width: 19%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 18px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+    }
+    .apop:hover{
+        text-decoration: none;
+        color: #5EA45C;
+    }
+    .part3{
+        width: 19%;
+    }
+    .part4{
+        width: 29%;
+    
+    }
+    .logo{
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: -3px;
+        margin-left: 15px;
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 10px;
+    }
+    .iicon{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 30px;
+    }
+    .procard{
+        width: 40%;
+        height: 330px;
+        
+    }
+    .proimg{
+        width: 230px;
+        margin: auto;
+        height: 230px;
+        border-radius: 10px;
+    }
+    
+
+    .proname{
+        margin-top: 5px;
+        font-size: 23px;
+    }
+    .btnedit{
+        width: 60px;
+        height: 30px;
+        background-color:rgb(48, 135, 169);
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .btndlt{
+        width: 60px;
+        height: 30px;
+        background-color:red;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 13px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+        
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-top: 90px;
+        margin-left: 10px;
+        transform: scale(1);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    .procard{
+        width: 40%;
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 20px;
+        height: 340px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .proimg{
+        width: 200px;
+        margin: auto;
+        height: 230px;
+        border-radius: 10px;
+    }
+    
+
+    .proname{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .btnedit{
+        width: 60px;
+        height: 30px;
+        background-color:rgb(48, 135, 169);
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .btndlt{
+        width: 60px;
+        height: 30px;
+        background-color:red;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;}
+    .part1{
+        width: 45%;
+    
+    }
+    .part2{
+        width: 45%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 15px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+    }
+    .apop:hover{
+        text-decoration: none;
+        color: #5EA45C;
+    }
+    .part3{
+        width: 45%;
+    }
+    .part4{
+        width: 45%;
+    
+    }
+    .logo{
+        width: 230px;
+        height: 200px;
+        display: block;
+        margin-top: 90px;
+        margin-left: 10px;
+        transform: scale(1);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: -3px;
+        margin-left: 15px;
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 15px;
+    }
+    .iicon{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .procard{
+        width: 45%;
+        margin-top: 20px;
+        height: 350px;
+    }
+    .proimg{
+        width: 150px;
+        height: 250px;
+    }
+    
+
+    .proname{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .btnedit{
+        width: 50px;
+        height: 30px;
+        background-color:rgb(48, 135, 169);
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .btndlt{
+        width: 50px;
+        height: 30px;
+        background-color:red;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;}
+    .part1{
+        width: 50%;
+    
+    }
+    .part2{
+        width: 45%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+    }
+    
+    .part3{
+        width: 45%;
+    }
+    .part4{
+        width: 45%;
+    
+    }
+    .logo{
+        width: 130px;
+        height: 130px;
+        display: block;
+        margin-top: 120px;
+        margin-left: 10px;
+        transform: scale(1);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 1px;
+    }
+    .iicon{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .procard{
+        width: 45%;
+        margin-top: 20px;
+        height: 300px;
+    }
+    .proimg{
+        width: 120px;
+        height: 190px;
+    }
+    
+
+    .proname{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .btnedit{
+        width: 50px;
+        height: 30px;
+        background-color:rgb(48, 135, 169);
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .btndlt{
+        width: 50px;
+        height: 30px;
+        background-color:red;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;}
+    .part1{
+        width: 45%;
+    
+    }
+    .part2{
+        width: 45%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+        padding-left: 5px;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+        padding-left: 5px;
+    }
+    
+    .part3{
+        width: 40%;
+    }
+    .part4{
+        width: 60%;
+    
+    }
+    .logo{
+        width: 100px;
+        height: 130px;
+        display: block;
+        margin-top: 120px;
+        margin-left: 20px;
+        transform: scale(1.3);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+        margin-left: 5px;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 1px;
+        text-align: justify;
+    }
+    .iicon{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+

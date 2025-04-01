@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Edit Details
+{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'css/edit.css' %}">
+{% endblock %}
+{% block style %}
+<style>
+    
+</style>
+{% endblock %}
+
+{% block content %}
+<form method="POST" enctype="multipart/form-data" >
+    {% csrf_token %}
+    {{form}}
+    <input class="btn5 " type="submit" value="Save Changes">
+
+</form>
+{% endblock %}

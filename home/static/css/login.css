@@ -1,0 +1,415 @@
+body{
+    background-color: #F5F5F5;
+}
+
+.logindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    border: 1px solid none;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width: 80%;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.loginbox{
+    width: 50%;
+    background-color:#5EA45C;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.login{
+    width: 50%;
+}
+
+.loghead{
+    text-align: center;
+    margin-top: 100px;
+    color: #5EA45C;
+   
+}
+
+.form1{
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(248, 244, 244, 0.951);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color: black;
+    font-size: 1rem;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.logginbtn{
+    padding: 15px;
+    background-color:#5EA45C;
+    color:white;
+    border:none ;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-left: 230px;
+    width: 100px;
+}
+.logh1{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+.logp{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.logbtn{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.fa-right-long{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 45px;
+    z-index: 3;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+@keyframes animation{
+    0%{
+        left:0;
+    }
+    100%{
+        left: 5px;
+    }
+
+}
+.newreg{
+    margin-left: 220px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.newreg:hover{
+    color: #5EA45C;
+}
+.lil{
+    width: 100px;
+    transform: scale(1.9);
+    margin-left: 250px;
+}
+.alert{
+    width: 300px !important;
+    height: 40px !important;
+    margin-top: 50px !important;
+    margin-left: 550px !important;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.perr{
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5EA45C;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 100%;
+    }
+    .logindiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        border: 1px solid none;
+        border-radius: 20px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        width: 80%;
+        height: 500px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .lil{
+        width: 100px;
+        transform: scale(1.9);
+        margin-left: 150px;
+    }
+    .logginbtn{
+        padding: 15px;
+        background-color:#5EA45C;
+        color:white;
+        border:none ;
+        outline: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: 150px;
+        width: 100px;
+    }
+    .newreg{
+        margin-left: 150px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .alert{
+        width: 300px !important;
+        height: 40px !important;
+        margin-top: 50px !important;
+        margin-left: 350px !important;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .perr{
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #5EA45C;
+        padding-top: 5px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .logindiv{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .lil{
+        width: 100px;
+        transform: scale(1.9);
+        margin-left: 100px;
+    }
+    .form1{
+        margin-left: 7px;  
+    }
+    .logginbtn{
+        margin-left: 95px;   
+    }
+    .newreg{
+        margin-left: 90px;
+        font-weight: bold;
+    }
+    .alert{
+        width: 300px !important;
+        height: 40px !important;
+        margin-top: 50px !important;
+        margin-left: 200px !important;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .perr{
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #5EA45C;
+        padding-top: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .logindiv{
+        width: 80%;
+        height: 500px;
+        margin-left: 60px;
+        margin-top: 150px;
+    }
+
+    .lil{
+        width: 100px;
+        transform: scale(1.9);
+        margin-left: 70px;
+    }
+    
+    .form1{
+        margin-left: 10px;  
+    }
+
+    .logginbtn{
+        margin-left: 75px;   
+    }
+    .newreg{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .alert{
+        width: 300px !important;
+        height: 40px !important;
+        margin-top: 50px !important;
+        margin-left: 200px !important;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .perr{
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #5EA45C;
+        padding-top: 5px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 400px) {
+    .logindiv{
+        margin-left: 40px; 
+        margin-top: 70px;
+        height: 600px; 
+    }
+    
+    .loginbox{
+        border-bottom-left-radius: 120px;
+        border-bottom-right-radius: 120px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .logh1{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+    }
+    
+    .lil{
+        width: 80px;
+        transform: scale(1.9);
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+
+    .loghead{
+        margin-top: 40px;
+        font-size: 25px; 
+        color: #5EA45C; 
+    }
+
+    .form1{
+        width: 120%;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    .logginbtn{
+        margin-left: 30px;   
+    }
+    
+    .newreg{
+        margin-left: 20px;
+    }
+    .fa-right-long{
+        animation-duration: 0s;
+        display: none;
+    }
+    .alert{
+        width: 300px !important;
+        height: 40px !important;
+        margin-top: 50px !important;
+        margin-left: 50px !important;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .perr{
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #5EA45C;
+        padding-top: 5px;
+    }
+    
+
+    
+}
+@media only screen and (max-width: 320px) {
+    .logindiv{
+        margin-left: 30px; 
+        margin-top: 70px;
+        height: 500px; 
+    }
+    .alert{
+        width: 250px !important;
+        height: 40px !important;
+        margin-top: 50px !important;
+        margin-left: 30px !important;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+    .perr{
+        margin-left: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #5EA45C;
+        padding-top: 5px;
+    }
+    .logginbtn{
+        margin-left:25px;
+        font-size: 15px;  
+        height: 40px; 
+    }
+    
+    .newreg{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .loginbox{
+        border-bottom-left-radius: 120px;
+        border-bottom-right-radius: 120px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .logh1{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 15px;
+    }
+    .logp{
+        font-size: 15px;
+
+    }
+    .logbtn{
+        font-size: 15px;
+    }
+    
+    .lil{
+        width: 85px;
+        transform: scale(1.9);
+        margin-left: 80px;
+        margin-top: -10px;
+    }
+
+    .loghead{
+        margin-top: 20px;
+        font-size: 18px; 
+        color: #5EA45C; 
+    }
+
+    .form1{
+        width: 120%;
+        margin-left: -20px;
+        margin-top: 5.5px;
+    }
+
+}

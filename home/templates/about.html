@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+About Us
+{% endblock %}
+{% block link %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1>About Liligreen Spices</h1>
+<p class="p1">Welcome to Liligreen Spices, your trusted source for premium quality spices and dry fruits. At Liligreen, we are committed to bringing the finest cardamom, black pepper, mace, nutmegs, dry fruits, dry ginger, cloves, and more directly from the heart of nature to your kitchen. With a passion for delivering freshness, flavor, and authenticity, we ensure that every product we offer is sourced from the best farms and processed with care to retain its natural goodness. Our dedication to quality and sustainability drives us to work closely with local farmers, supporting ethical practices while providing you with only the best spices and dry fruits available. Whether you're a home cook or a professional chef, our range of aromatic spices and healthy dry fruits will elevate your culinary experience.</p>
+<p class="p2">At Liligreen, we believe in the power of natural ingredients to enhance both taste and well-being. We invite you to explore our collection of premium spices and discover the difference that quality makes.At Liligreen, we understand the importance of fresh, authentic spices in creating bold flavors and unique experiences. Our mission is to deliver only the best products, sustainably sourced and carefully processed to retain their natural aroma and taste. We work directly with trusted growers and suppliers to ensure that every product meets the highest standards of quality and freshness.</p>
+<p class="p3">Whether you’re a home cook, a professional chef, or a business looking for high-quality spices, we are dedicated to providing you with products that make every dish exceptional. Our commitment to excellence is matched only by our passion for sharing the rich, diverse world of spices with you.</p>
+<p class="p4">Thank you for choosing Liligreen spices - where authenticity and excellence meet in every grain.</p>
+
+ <br>
+<h2>Our Specialities :</h2>
+<ul>
+    <li>24/7 Support</li>
+    <li>Timely Delivery</li>
+    <li>Satisfied Customers</li>
+    <li>International Delivery</li>
+    <li>Premium Quality Assurance</li>
+    <li>Low Price and High Quality</li>
+</ul>
+<br>
+<div class="main8">
+    <div class="part1">
+        <img class="logo" src="{% static 'images/logo1.jpg' %}" alt="">
+    </div>
+    <div class="part2">
+        <p class="popular"> POPULAR PRODUCTS</p><hr>
+            <a class="apop" href="/productview/{{h.id}}">Cardamom</a>
+            <a class="apop" href="/productview/{{z.id}}">Black pepper</a>
+            <a class="apop" href="/productview/{{k.id}}">Dry Ginger</a>
+            <a class="apop" href="/productview/{{o.id}}">Dry Turmeric</a>
+            <a class="apop" href="/productview/{{n.id}}">Mixed Dry Fruits</a>
+            <a class="apop" href="/productview/{{m.id}}">Tea Powder</a>
+            <a class="apop" href="/productview/{{l.id}}">Coffee Powder</a>
+            <a class="apop" href="/productview/{{q.id}}">Nutmegs</a>
+            <a class="apop" href="/productview/{{j.id}}">Cloves</a>
+            <a class="apop" href="/productview/{{p.id}}">Mace</a>
+
+    </div>
+    <div class="part3">
+        <p class="popular"> Quick Links</p><hr>
+        <a class="apop" href="/">Home</a>
+        <a class="apop" href="/products">products</a>
+        <a class="apop" href="/aboutus">About us</a>
+        <a class="apop" href="/contactus">Contact Us</a>
+        
+        
+    </div>
+    <div class="part4">
+        <p class="popular"> Contact us</p><hr>
+        <div class="pimg">
+           <img class="iicon" src="{% static 'images/locat.png' %}" alt="">
+           <p class="lastp">Kattappana, India</p>
+       </div>
+       <div class="pimg">
+            <img class="iicon" src="{% static 'images/phone.png' %}" alt="">
+            <p class="lastp">+91 6238700558</p>
+       </div>
+       <div class="pimg">
+          <img class="iicon" src="{% static 'images/mail2.png' %}" alt="">
+           <p class="lastp">liligreenspices@gmail.com</p>
+       </div>
+       <div class="pimg">
+            <i class="fa-brands fa-instagram"></i>
+            <a class="insta" href="https://www.instagram.com/liligreenspices?igsh=amUzOXl5eWR2N21s" target="_blank"> <p class="lastp">liligreenspices</p></a>
+       </div>
+       <div class="pimg">
+            <i class="fa-brands fa-facebook-f"></i>
+            <a class="facebook" href="https://www.facebook.com/share/1Ar7PtFQFK/" target="_blank"> <p class="lastp">Liligreen Spices</p></a>
+       </div>
+        
+    </div>
+
+</div>
+{% endblock %}

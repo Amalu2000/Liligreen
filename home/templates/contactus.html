@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Contact Us
+{% endblock %}
+{% block link %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/contactus.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="main7">
+    <div class="sec1">
+        <p class="touch">Contact Us</p>
+        <p class="det">If you have any questions, need assistance, or simply want to get in touch, we’re here to help! Our team is always ready to assist you with any inquiries you may have. Whether it’s about our services, support, or general feedback, don’t hesitate to reach out. You can contact us via email, phone, or by filling out the form below. We look forward to hearing from you!</p>
+        <img class="icon" src="{% static 'images/call.png' %}" alt=""><p class="iconp">+91 6238700558</p>
+        <img class="icon" src="{% static 'images/mail.png' %}" alt=""><p class="iconp">liligreenspices@gmail.com</p>
+        <img class="icon" src="{% static 'images/location.png' %}" alt=""><p class="iconp">Kattappana, India</p>
+
+    </div>
+    <div class="sec2">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31457.304089197438!2d77.09086987845474!3d9.752256131801849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07a95aa8e26bf9%3A0x67c8632ff6aeefb5!2sKattappana%2C%20Kerala!5e0!3m2!1sen!2sin!4v1742821289289!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+</div>
+
+<br>
+<div class="main8">
+    <div class="part1">
+        <img class="logo" src="{% static 'images/logo1.jpg' %}" alt="">
+    </div>
+    <div class="part2">
+        <p class="popular"> POPULAR PRODUCTS</p><hr>
+            <a class="apop" href="/productview/{{h.id}}">Cardamom</a>
+            <a class="apop" href="/productview/{{z.id}}">Black pepper</a>
+            <a class="apop" href="/productview/{{k.id}}">Dry Ginger</a>
+            <a class="apop" href="/productview/{{o.id}}">Dry Turmeric</a>
+            <a class="apop" href="/productview/{{n.id}}">Mixed Dry Fruits</a>
+            <a class="apop" href="/productview/{{m.id}}">Tea Powder</a>
+            <a class="apop" href="/productview/{{l.id}}">Coffee Powder</a>
+            <a class="apop" href="/productview/{{q.id}}">Nutmegs</a>
+            <a class="apop" href="/productview/{{j.id}}">Cloves</a>
+            <a class="apop" href="/productview/{{p.id}}">Mace</a>
+
+    </div>
+    <div class="part3">
+        <p class="popular"> QUICK LINKS</p><hr>
+        <a class="apop" href="/">Home</a>
+        <a class="apop" href="/products">products</a>
+        <a class="apop" href="/aboutus">About us</a>
+        <a class="apop" href="/contactus">Contact Us</a>
+        
+        
+    </div>
+    <div class="part4">
+        <p class="popular"> CONTACT US</p><hr>
+        <div class="pimg">
+           <img class="iicon" src="{% static 'images/locat.png' %}" alt="">
+           <p class="lastp">Kattappana, India</p>
+       </div>
+       <div class="pimg">
+            <img class="iicon" src="{% static 'images/phone.png' %}" alt="">
+            <p class="lastp">+91 6238700558</p>
+       </div>
+       <div class="pimg">
+          <img class="iicon" src="{% static 'images/mail2.png' %}" alt="">
+           <p class="lastp">liligreenspices@gmail.com</p>
+       </div>
+       <div class="pimg">
+        <i class="fa-brands fa-instagram"></i>
+        <a class="insta" href="https://www.instagram.com/liligreenspices?igsh=amUzOXl5eWR2N21s" target="_blank"> <p class="lastp">liligreenspices</p></a>
+       </div>
+       <div class="pimg">
+        <i class="fa-brands fa-facebook-f"></i>
+        <a class="facebook" href="https://www.facebook.com/share/1Ar7PtFQFK/" target="_blank"> <p class="lastp">Liligreen Spices</p></a>
+       </div>
+        
+    </div>
+
+</div>
+{% endblock %}

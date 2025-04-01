@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% block title %}
+Add Product
+{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/addproduct.css' %}">
+{% endblock %}
+
+{% block content %}
+<form class="form2" method="POST" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <label for="">Name:</label>
+    {% render_field form.name class="inp1" placeholder="Name" %}
+    
+    <label for="">Description:</label>
+    {% render_field form.description class="inp1" placeholder="Description" %}
+    
+    <label for="">Details:</label>
+    {% render_field form.details class="inp1" placeholder="Details" %}
+    
+    <label for="">Specification 1:</label>
+    {% render_field form.specification1 class="inp1" placeholder="Specification 1" %}
+    
+    <label for="">Specification 2:</label>
+    {% render_field form.specification2 class="inp1" placeholder="Specification 2" %}
+    
+    <label for="">Specification 3:</label>
+    {% render_field form.specification3 class="inp1" placeholder="Specification 3" %}
+    
+    <label for="">Specification 4:</label>
+    {% render_field form.specification4 class="inp1" placeholder="Specification 4" %}
+    
+    <label for="">Specification 5:</label>
+    {% render_field form.specification5 class="inp1" placeholder="Specification 5" %}
+    
+    <label for="">Specification 6:</label>
+    {% render_field form.specification6 class="inp1" placeholder="Specification 6" %}
+    
+    <label for="">Category:</label>
+    {% render_field form.ctry class="inp1"  %}
+    
+    <label for="">Image:</label>
+    {% render_field form.img1 class="imgnew" %}
+
+    <input type="submit">
+    
+    
+
+
+</form>
+{% endblock %}

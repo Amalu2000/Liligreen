@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    {% block link %}
+   {% endblock %}
+
+   {% block style %}
+   {% endblock %}
+
+</head>
+<body>
+    <div class="main1">
+        <p class="scrolling-text">Welcome to Liligreen Spices. We accept bulk orders only through WhatsApp, and no cash on delivery option available recently. The price  of the product may vary according to market rates. Feel free to reach out to us anytime on WhatsApp for orders and inquiries, +91 6238700558. </p>
+
+    </div>
+    <div class="main2">
+        <div class="div1">
+        
+            <img  class="img1" src="{% static 'images/logo11.png' %}" alt="">
+            <!-- <img class="img2" src="{% static 'images/spices.png' %}" alt=""> -->
+        </div>
+        <div class="div2">
+            <nav>
+                    <a class="a1" href="/">Home</a>
+                    <a class="a1" href="/products">Products</a>
+                    <a class="a1" href="/aboutus">About Us</a>
+                    <a class="a1" href="/contactus">Contact us</a>
+                    {% if user.is_authenticated and user.is_superuser %}
+                    <a class="a1" href="/addproduct"><i class="fa-solid fa-plus"></i></a>
+                    {% endif %}
+
+                    {% if user.is_authenticated  %}
+                    <!-- <a class="a1" href=""><i class="fa-solid fa-user"></i>{{user}}</a> -->
+                    <a class="aa1" href="/logout">logout</a>
+                    {% else %}
+                    <a class="aa11" href="/login">Login</a>
+                    {% endif %}
+        
+                    
+            </nav>
+            
+        </div>    
+    </div> 
+    {% block content %}
+    {% endblock %}
+    <a href=" https://wa.me/+916238700558?text=Hello,%20I%20am%20interested%20in%20learning%20more%20about%20the%20products%20available%20on%20your%20website.%20Could%20you%20please%20provide%20more%20details%20about%20your%20products?%20Thank you!" target="_blank">
+        <img src="{% static 'images/whatsapp1.png' %}" alt="whatsapp"  width="70px" class="whatsapplogo">
+    </a>
+
+</body>
+</html>

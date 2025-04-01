@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+.main1{
+    width: 100%;
+    height: 31px;
+    background-color: #5EA45C;
+    overflow: hidden;
+    white-space:nowrap;
+    padding: 5px 0;
+    position: relative;
+    
+}
+.scrolling-text{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 100%;
+    animation: scroll 30s linear infinite;
+}
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+nav{
+    width: 100%;
+    height: 105px;
+    z-index: 1;
+    /* background-color: aqua; */
+}
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color:#F5F5F5 ; */
+    z-index: 3;
+    height: 90px;
+
+}
+.div1{
+    width: 15%;
+    /* background-color: aquamarine; */
+}
+.div2{
+    width: 85%;
+
+}
+.img1{
+    width: 70px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 35px;
+    transform: scale(2.9);
+}
+.img2{
+    width: 97.67px;
+    height: 30.73px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.a1{
+    width: 44px;
+    height: 19px;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight:900;
+    font-style: normal;
+    line-height: normal;
+    color: black;
+    padding: 35px;
+    text-decoration: none;
+    /* margin-left: 30px; */
+    position: relative;
+    top: 40px;
+
+}
+
+.a1:hover{
+    text-decoration: none;
+    color: #5EA45C;
+
+}
+.aa1{
+    width: 44px;
+    height: 19px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight:bolder;
+    font-style: normal;
+    line-height: normal;
+    color: #5EA45C;
+    padding: 35px;
+    text-decoration: none;
+    /* padding-left: 350px; */
+    position: relative;
+    top: 40px;
+    /* right: -150px; */
+
+}
+.aa1:hover{
+    text-decoration: none;
+    color: #5EA45C;
+
+}
+.aa11{
+    width: 44px;
+    height: 19px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight:bolder;
+    font-style: normal;
+    line-height: normal;
+    color: #5EA45C;
+    padding: 15px;
+    text-decoration: none;
+    padding-left: 350px;
+    position: relative;
+    top: 40px;
+    right: -270px;
+    
+}
+.aa11:hover{
+text-decoration: none;
+color: #5EA45C;
+}
+.fa-user{
+    padding-right: 5px;
+}
+
+.whatsapplogo{
+    position: fixed;
+    bottom: 02%;
+    right: 02%;
+
+}
+.whatsapplogo:hover{
+    transform: scale(1.2);
+}
+
+.searchbar{
+    display: none;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.pqr{
+    width: 100%;
+    height: 230px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    display: none;
+    background-color: #f8f9fa;
+
+}
+.n1{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    
+    
+}
+@media only screen and (max-width: 1024px) {
+    .main1{
+        height: 35px;
+        padding:  0;
+        
+    }
+    .scrolling-text{
+        font-size: 17px;
+        
+    }
+
+    .main1{
+        width: 100%;
+        height: 31px;
+        background-color: #5EA45C;
+        
+    }
+    nav{
+        width: 100%;
+        height: 105px;
+        z-index: 1;
+        /* background-color: aqua; */
+    }
+    .a1{
+        font-size: 18px;
+        padding: 25px;
+        position: relative;
+        top: 40px;
+    
+    }
+    .aa11{
+        font-size: 18px;
+       position: relative;
+        top: 40px;
+        right: -200px;
+        
+    }
+    .aa1{
+        font-size: 18px;
+        position: relative;
+        top: 40px;
+        right: -10px;
+    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main1{
+        height: 35px;
+        padding:  0;
+        
+    }
+    .scrolling-text{
+        font-size: 17px;
+        
+    }
+   
+    .img1{
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left:20px;
+        transform: scale(2.4);
+    }
+    .a1{
+        width: 30px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 15px;
+        font-weight:900;
+        font-style: normal;
+        line-height: normal;
+        color: black;
+        padding: 15px;
+        text-decoration: none;
+        margin-left: -10px;
+        position: relative;
+        top: 30px;
+    
+    }
+
+    .aa1{
+        width: 44px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 15px;
+        font-weight:bolder;
+        font-style: normal;
+        line-height: normal;
+        color: #5EA45C;
+        padding: 10px;
+        text-decoration: none;
+        /* padding-left: 350px; */
+        position: relative;
+        top: 30px;
+        /* right: -150px; */
+    
+    }
+
+    .aa11{
+        width: 44px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 15px;
+        font-weight:bolder;
+        font-style: normal;
+        line-height: normal;
+        color: #5EA45C;
+        padding: 10px;
+        text-decoration: none;
+        /* padding-left: 350px; */
+        position: relative;
+        top: 30px;
+        right: -240px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .main1{
+        height: 25px;
+        padding:  0;
+        
+    }
+    .scrolling-text{
+        font-size: 15px;
+        
+    }
+    .img1{
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left:15px;
+        transform: scale(2.4);
+    }
+    .main2{
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 3;
+        height: 60px;
+        width: 100%;
+    
+    }
+
+
+    .a1{
+        width: 30px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 13px;
+        font-weight:900;
+        font-style: normal;
+        line-height: normal;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: -10px;
+        position: relative;
+        top: 30px;
+    
+    }
+
+    .aa1{
+        width: 44px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 13px;
+        font-weight:bolder;
+        font-style: normal;
+        line-height: normal;
+        color: #5EA45C;
+        padding: 10px;
+        text-decoration: none;
+        /* padding-left: 350px; */
+        position: relative;
+        top: 30px;
+        /* right: -150px; */
+    
+    }
+
+    .aa11{
+        width: 44px;
+        height: 19px;
+        font-family: "Roboto", serif;
+        font-size: 13px;
+        font-weight:bolder;
+        font-style: normal;
+        line-height: normal;
+        color: #5EA45C;
+        padding: 10px;
+        text-decoration: none;
+        /* padding-left: 350px; */
+        position: relative;
+        top: 40px;
+        right: -240px;
+        
+    }
+
+    .whatsapplogo{
+        position: fixed;
+        left: 84%;
+        bottom: 1%;
+        
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    .main1{
+        height: 20px;
+        padding:  0;
+        
+    }
+    .scrolling-text{
+        font-size: 10px;
+        
+    }
+    .div1{
+        width: 11%;
+    }
+    .div2{
+        width: 89%;
+    }
+    .img1{
+        width: 30px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left:5px;
+        transform: scale(2.4);
+    }
+    .a1{
+        /* display: none; */
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .aa1{
+        font-size: 10px;
+        right: 5px;
+    }
+    .aa11{
+        font-size: 10px;
+        right: -60px;
+        top: 30px;
+    }
+    /* .searchbar{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-left: 270px;
+        margin-top: 10px;
+        border: 1px solid black;
+        z-index: 3;
+    }
+    .pqr{
+        display: block;
+        background-color: #3d84cc !important; 
+        z-index: 5;
+    } */
+   
+   
+    .whatsapplogo{
+        position: fixed;
+        left: 80%;
+        bottom: 2%;
+        width:50px ;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .main1{
+        height: 20px;
+        padding:  0;
+        
+    }
+    .scrolling-text{
+        font-size: 8px;
+        
+    }
+    .img1{
+        width: 25px;
+        height: 25px;
+        margin-bottom: 2px;
+        
+    }
+    .main2{
+        height: 40px;
+       
+    }
+    .div1{
+        width: 20%;
+        
+    }
+    .div2{
+        width: 80%;
+        height: 80px;
+    }
+    .a1{
+        padding-left: 11px;
+        font-size: 8px;
+        top: 10px;
+
+    }
+    .aa1{
+        font-size: 8px;
+        top: 10px;
+        /* margin-left: 100px; */
+    }
+    .aa11{
+        font-size: 8px;
+        right: -80px;
+        top: 10px;
+    }
+    
+}

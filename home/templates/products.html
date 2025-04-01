@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Products 
+{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="{% static 'css/products.css' %}">
+{% endblock %}
+
+<!-- {% block nav %}
+
+{% endblock %} -->
+{% block content %}
+<div class="main">
+{% for i in xyz %}
+<!-- <a href="/productview/{{i.id}}" class="abc"> -->
+<div class="procard">
+    <a href="/productview/{{i.id}}" >  <img class="proimg" src="/media/{{i.img1}}" alt=""></a>
+  <h4 class="proname">{{i.name}}</h4>
+  {% if user == i.us %}
+  <a href="/edit/{{i.id}}" ><button class="btnedit">Edit</button></a>
+  <a href="/delete/{{i.id}}" > <button class="btndlt">Delete</button></a>
+  {% endif %}
+</div>
+<!-- </a> -->
+{% endfor %}
+</div>
+
+<br> <br>
+<div class="main8">
+    <div class="part1">
+        <img class="logo" src="{% static 'images/logo1.jpg' %}" alt="">
+    </div>
+    <div class="part2">
+        <p class="popular"> POPULAR PRODUCTS</p><hr>
+            <a class="apop" href="/productview/{{h.id}}">Cardamom</a>
+            <a class="apop" href="/productview/{{z.id}}">Black pepper</a>
+            <a class="apop" href="/productview/{{k.id}}">Dry Ginger</a>
+            <a class="apop" href="/productview/{{o.id}}">Dry Turmeric</a>
+            <a class="apop" href="/productview/{{n.id}}">Mixed Dry Fruits</a>
+            <a class="apop" href="/productview/{{m.id}}">Tea Powder</a>
+            <a class="apop" href="/productview/{{l.id}}">Coffee Powder</a>
+            <a class="apop" href="/productview/{{q.id}}">Nutmegs</a>
+            <a class="apop" href="/productview/{{j.id}}">Cloves</a>
+            <a class="apop" href="/productview/{{p.id}}">Mace</a>
+
+    </div>
+    <div class="part3">
+        <p class="popular"> QUICK LINKS</p><hr>
+        <a class="apop" href="/">Home</a>
+        <a class="apop" href="/products">products</a>
+        <a class="apop" href="/aboutus">About us</a>
+        <a class="apop" href="/contactus">Contact Us</a>
+        
+        
+    </div>
+    <div class="part4">
+        <p class="popular"> CONTACT US</p><hr>
+        <div class="pimg">
+           <img class="iicon" src="{% static 'images/locat.png' %}" alt="">
+           <p class="lastp">Kattappana, India</p>
+       </div>
+       <div class="pimg">
+            <img class="iicon" src="{% static 'images/phone.png' %}" alt="">
+            <p class="lastp">+91 6238700558</p>
+       </div>
+       <div class="pimg">
+          <img class="iicon" src="{% static 'images/mail2.png' %}" alt="">
+           <p class="lastp">liligreenspices@gmail.com</p>
+       </div>
+       <div class="pimg">
+            <i class="fa-brands fa-instagram"></i>
+            <a class="insta" href="https://www.instagram.com/liligreenspices?igsh=amUzOXl5eWR2N21s" target="_blank"> <p class="lastp">liligreenspices</p></a>
+       </div>
+        <div class="pimg">
+                <i class="fa-brands fa-facebook-f"></i>
+                <a class="facebook" href="https://www.facebook.com/share/1Ar7PtFQFK/" target="_blank"> <p class="lastp">Liligreen Spices</p></a>
+        </div>
+        
+    </div>
+
+</div>
+{% endblock %}

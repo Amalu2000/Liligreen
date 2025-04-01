@@ -1,0 +1,1416 @@
+.bg{
+    width: 100%;
+    /* height: 486px; */
+    height: 600px;
+    z-index: 2;
+}
+
+.sidep{
+    color: white;
+    position: absolute;
+    top: 350px;
+    /* left: 20px; */
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 45px;
+    z-index: 3;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+@keyframes animation{
+    0%{
+        left:-500px;
+    }
+    100%{
+        left: 20px;
+    }
+
+}
+.lili{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right:10px ;
+    transform: scale(1.1);
+}
+.main3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.div3{
+    width: 40%;
+    
+}
+.div4{
+    width: 60%;
+    margin-top: 150px;
+    
+}
+.p1{
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight:bold;
+    font-style: normal;
+    line-height: 19px;
+    color: #000000;
+}
+.hh2{
+    font-family: "Roboto", serif;
+    font-size: 30px;
+    font-weight:bold;
+    font-style: normal;
+    line-height: 38px;
+    color: #5EA45C;
+    padding-top: 5px;
+
+}
+.p2{
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight:300;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 5px;
+    text-align: justify;
+    padding-right: 8px;
+    
+
+}
+
+.cardamom{
+    width: 500px;
+    height: 350px;
+    margin-top: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 60px;
+}
+.btn1{
+    width: 157px;
+    height: 56px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #5EA45C ;
+    background-color: #5EA45C;
+    color: white;
+    font-family: "Outfit", serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
+.pp{
+    width: 100%;
+    background-color:#F5F5F5 ;
+}
+.p4{
+    font-size: 15px;
+    font-family:"Roboto", serif ;
+    font-weight: bold;
+    margin-left: 60px;
+    line-height: 19px;
+}
+.p5{
+    font-size: 30px;
+    font-family:"Roboto", serif ;
+    font-weight: bold;
+    margin-left: 60px;
+    line-height: 38px;
+    margin-top: 10px;
+    color: #5EA45C;
+
+}
+.main4{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#F5F5F5;
+    /* margin-top: 5px; */
+    
+}
+
+.pro{
+    width: 18%;
+    height: 280px;
+    background-color:#F5F5F5;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* .pro:hover{
+    border: 1px solid none;
+    transform: scale(1.1);
+    background-color: #ffffff;
+} */
+.proimg{
+    width: 250px;
+    height: 218px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+.apro{
+    position: relative;
+    left: 90px;
+    top: 20px;
+    font-family:"Roboto", serif ;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+
+}
+.apro:hover{
+    text-decoration: none;
+    color: #5EA45C;
+}
+.why{
+    font-family:"Roboto", serif ;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-left: 60px;
+
+}
+.main5{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.delivery{
+    margin-top: 10px;
+}
+.comboimg{
+    width: 560px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+ 
+.main7{
+    width: 100%;
+    height: 550px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sec1{
+    width: 40%;
+    height: 500px;
+}
+.sec2{
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    
+}
+.liliinp{
+    width: 450px;
+    height: 500px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.touch{
+    font-family:"Roboto", serif ;
+    font-size: 33px;
+    font-weight: 500;
+    color:#5EA45C;
+    line-height: normal;
+    text-align: left;
+    margin-top: 10px;
+}
+.det{
+    font-family:"Roboto", serif ;
+    font-size: 16px;
+    font-weight: 200;
+    line-height:24px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.icon{
+    width: 58px;
+    height: 58px;
+    margin-top: 40px;
+}
+.iconp{
+    font-family:"Roboto", serif ;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: 70px;
+    margin-top: -40px;
+
+}
+
+.main8{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;}
+.part1{
+    width: 29%;
+
+}
+.part2{
+    width: 19%;
+    }
+.popular{
+    margin-top:30px;
+    font-family:"Roboto", serif ;
+    font-size: 18px;
+    font-weight:bold;
+    line-height:29px;
+    color: white;
+    display: block;
+}
+.apop{    
+    font-family:"Roboto", serif ;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 6px;
+}
+.apop:hover{
+    text-decoration: none;
+    color: #5EA45C;
+}
+.part3{
+    width: 19%;
+}
+.part4{
+    width: 29%;
+
+}
+.logo{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+hr{
+    width: 35px;
+    border: 1px solid #5EA45C;
+}
+.lastp{
+    font-family:"Roboto", serif ;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: -3px;
+    margin-left: 15px;
+
+}
+.pimg{
+    display: flex;
+    margin-top: 15px;
+}
+.iicon{
+    width: 25px;
+    height: 25px;
+}
+.fa-instagram{
+    color: azure;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.insta{
+    text-decoration: none;
+}
+.fa-facebook-f{
+    color: azure;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.facebook{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .main3{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .div3{
+        width: 45%;        
+    }
+    .div4{
+        width: 55%;
+        margin-top: 130px;   
+    }
+
+    .cardamom{
+        width: 350px;
+        height: 350px;
+        margin-top: 100px;
+        border-radius: 10px;
+        /* position: relative; */
+        /* left: 60px; */
+    }
+
+    .pro{
+        width: 18%;
+        
+    }
+    
+    .proimg{
+        width: 180px;
+        height: 218px;
+      
+    }
+    .apro{
+        position: relative;
+        left: 40px;
+        top: 20px;
+        font-family:"Roboto", serif ;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 22px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    .main5{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    .delivery{
+        margin-top: 10px;
+        width: 45%;
+    }
+    .comboimg{
+        width: 460px;
+        height: 280px;
+        border-radius: 5px;
+    }
+    .deliveryimg{
+        width: 460px;
+        height: 280px;
+    }
+    .liliinp{
+        width: 350px;
+        height: 450px;
+        margin-left: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;}
+    .part1{
+        width: 29%;
+    
+    }
+    .part2{
+        width: 19%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 18px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+    }
+    .apop:hover{
+        text-decoration: none;
+        color: #5EA45C;
+    }
+    .part3{
+        width: 19%;
+    }
+    .part4{
+        width: 29%;
+    
+    }
+    .logo{
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: -3px;
+        margin-left: 15px;
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 15px;
+    }
+    .iicon{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .sidep{
+        font-size: 28px;
+    }
+
+    .div3{
+        width: 40%;
+        
+    }
+    .div4{
+        width: 60%;
+        margin-top: 90px;
+    }
+    .cardamom{
+        width: 250px;
+        height: 280px;
+        margin-left: -25px;
+        transform: scale(1.1);
+    }
+    .hh2{
+        font-size: 18px;
+    }
+    .btn1{
+        width: 100px;
+        height: 36px;
+        font-size: 10px;
+    }
+    .p4{
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .p5{
+        margin-left: 15px;
+    
+    }
+    .main4{
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color:#F5F5F5;
+    }
+    
+    .pro{
+        width: 45%;
+        
+    }
+   
+    .proimg{
+        width: 250px;
+        height: 218px;
+      
+    }
+    .apro{
+        margin-left: 80px;
+    }
+    .why{
+        font-size: 17px;
+        margin-left: 15px;
+    
+    }
+    .main5{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    .delivery{
+        margin-top: 10px;
+        width: 50%;
+
+    }
+    .comboimg{
+        width: 330px;
+        height: 200px;
+        border-radius: 5px;
+    }
+    .deliveryimg{
+        width: 350px;
+        height: 180px;
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+    .liliinp{
+        width: 300px;
+        height: 450px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 13px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-top: 90px;
+        margin-left: 10px;
+        transform: scale(1);
+    }
+
+}
+@media only screen and (max-width: 650px) {
+    .bg{
+        width: 100%;
+        height: 500px;
+        z-index: 2;
+    }
+
+    .sidep{
+        color: white;
+        position: absolute;
+        top: 350px;
+        /* left: 20px; */
+        font-size: 30px;
+        font-weight: bolder;
+        line-height: 35px;
+        z-index: 3;
+        animation-name: animation;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+    }
+    @keyframes animation{
+        0%{
+            left:-500px;
+        }
+        100%{
+            left: 20px;
+        }
+    
+    }
+    
+    .main3{
+        width: 100%;
+        height: 400px;
+    }
+    .div3{
+        width: 40%;
+        margin-top: -20px;
+        
+    }
+    .div4{
+        width: 60%;
+        margin-top: 90px;
+    }
+
+    .cardamom{
+        width: 200px;
+        height: 250px;
+        margin-top: 110px;
+        border-radius: 10px;
+        position: relative;
+        left: 1px;
+        margin-left: 15px;
+        transform: scale(1.1);
+    }
+
+    .p1{
+        font-family: "Roboto", serif;
+        font-size: 15px;
+        font-weight:bold;
+        font-style: normal;
+        line-height: 10px;
+        color: #000000;
+    }
+    .hh2{
+        font-family: "Roboto", serif;
+        font-size: 10px;
+        font-weight:bold;
+        font-style: normal;
+        line-height: 20px;
+        color: #5EA45C;
+        padding-top: 5px;
+    
+    }
+    .p2{
+        font-family: "Roboto", serif;
+        font-size: 11px;
+        font-weight:300;
+        font-style: normal;
+        line-height: 20px;
+        color: #000000;
+        padding-top: 5px;
+        text-align: justify;
+        padding-right: 7px;  
+    
+    }
+    .btn1{
+        width: 107px;
+        height: 36px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 1px solid #5EA45C ;
+        background-color: #5EA45C;
+        color: white;
+        font-family: "Outfit", serif;
+        font-size: 10px;
+        line-height: 24px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .p4{
+        font-size: 15px;
+        font-family:"Roboto", serif ;
+        font-weight: bold;
+        margin-left: 20px;
+        line-height: 10px;
+    }
+    .p5{
+        font-size: 20px;
+        font-family:"Roboto", serif ;
+        font-weight: bold;
+        margin-left: 20px;
+        line-height: 38px;
+        margin-top: 10px;
+        color: #5EA45C;
+    
+    }
+
+    .main4{
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color:#F5F5F5;
+        
+    }
+    
+    .pro{
+        width: 45%;
+        height: 280px;
+        background-color:#F5F5F5;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+   
+    .proimg{
+        width: 250px;
+        height: 218px;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+    }
+    .apro{
+        font-family:"Roboto", serif ;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 22px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        
+    
+    }
+
+    .why{
+        font-family:"Roboto", serif ;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 19px;
+        margin-left: 40px;
+    
+    }
+    .main5{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    .delivery{
+        margin-top: 10px;
+        width: 50%;
+
+    }
+    .comboimg{
+        width: 250px;
+        height: 200px;
+        border-radius: 5px;
+    }
+    .deliveryimg{
+        width: 300px;
+        height: 180px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    .main7{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .sec1{
+        width: 40%;
+        height: 500px;
+    }
+    .sec2{
+        width: 40%;
+        height: 500px;
+        margin-top: 20px;
+        
+    }
+    
+    .touch{
+        font-family:"Roboto", serif ;
+        font-size: 25px;
+        font-weight: 500;
+        color:#5EA45C;
+        line-height: normal;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .det{
+        font-family:"Roboto", serif ;
+        font-size: 15px;
+        font-weight: 200;
+        line-height:24px;
+        text-align: justify;
+        margin-top: 10px;
+    }
+    .icon{
+        width: 45px;
+        height: 45px;
+        margin-top: 40px;
+    }
+    .iconp{
+        font-family:"Roboto", serif ;
+        font-size: 14px;
+        font-weight: 300;
+        line-height:20px;
+        margin-left: 70px;
+        margin-top: -40px;
+    }
+    .liliinp{
+        width: 250px;
+        height: 400px;
+        margin-left: 10px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;}
+    .part1{
+        width: 45%;
+    
+    }
+    .part2{
+        width: 45%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 15px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+    }
+    .apop:hover{
+        text-decoration: none;
+        color: #5EA45C;
+    }
+    .part3{
+        width: 45%;
+    }
+    .part4{
+        width: 45%;
+    
+    }
+    .logo{
+        width: 230px;
+        height: 200px;
+        display: block;
+        margin-top: 90px;
+        margin-left: 10px;
+        transform: scale(1);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 16px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: -3px;
+        margin-left: 15px;
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 15px;
+    }
+    .iicon{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .bg{
+        width: 100%;
+        height: 300px;
+        z-index: 2;
+    }
+
+    .sidep{
+        color: white;
+        position: absolute;
+        top: 200px;
+        /* left: 20px; */
+        font-size: 20px;
+        font-weight: bolder;
+        line-height: 25px;
+        z-index: 3;
+        animation-name: animation;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+    }
+    @keyframes animation{
+        0%{
+            left:-500px;
+        }
+        100%{
+            left: 10px;
+        }
+    
+    }
+    
+    .main3{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .div3{
+        width: 100%;
+        
+    }
+    .div4{
+        width: 100%;
+        
+    }
+    .cardamom{
+        width: 250px;
+        height:250px;
+        margin-top: 50px;
+        margin-left: 70px;
+    
+     }
+     .p1{
+        margin-top: -40px;
+        padding-left: 5px;
+    }
+    .hh2{
+        font-family: "Roboto", serif;
+        font-size: 11px;
+        font-weight:bold;
+        font-style: normal;
+        line-height: 20px;
+        color: #5EA45C;
+        padding-top: 5px;
+        padding-left: 5px;
+    
+    }
+    .p2{
+        font-size: 12px;
+        font-weight:300;
+        padding-right: 7px;
+        padding-left: 5px;  
+    
+    }
+    .btn1{
+       margin-left: 20px;
+       margin-top: 10px;
+    }
+    
+
+    .p4{
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 10px;
+        line-height: 10px;
+    }
+    .p5{
+        font-size: 18px;
+        margin-left: 5px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .main4{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 5px;
+        
+    }
+    
+    .pro{
+        width: 45%;
+        height: 200px;
+        background-color:#F5F5F5;
+        border-radius: 20px;
+        margin-top: 5px;
+        text-align: center;
+    }
+   
+    .proimg{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+    }
+    .apro{
+        font-family:"Roboto", serif ;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 15px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        margin-left: -150px;
+    }
+
+    .why{
+        font-size: 14px;
+        margin-left: 7px;
+        margin-top: 5px;
+    }
+
+    .main5{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    .delivery{
+        margin-top: 6px;
+        width: 100%;
+        
+
+    }
+    .comboimg{
+        margin-left: 40px;
+        width: 300px;
+        
+        
+    }
+    .deliveryimg{
+        margin-left: 20px;
+        
+    }
+
+    .main7{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    .sec1{
+        width: 100%;
+        height: 300px;
+    }
+    .sec2{
+        width: 100%;
+        height: 300px;    
+    }
+
+    .touch{
+        padding-left: 5px;
+    }
+    .det{
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+        margin-top: 30px;
+        padding-left: 5px;
+    }
+    .iconp{
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight: 300;
+        line-height:20px;
+        margin-left: 50px;
+        margin-top: -35px;
+    }
+    .liliinp{
+        width: 250px;
+        height: 280px;
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;}
+    .part1{
+        width: 45%;
+    
+    }
+    .part2{
+        width: 45%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+    }
+    
+    .part3{
+        width: 45%;
+    }
+    .part4{
+        width: 45%;
+    
+    }
+    .logo{
+        width: 130px;
+        height: 130px;
+        display: block;
+        margin-top: 120px;
+        margin-left: 20px;
+        transform: scale(1.3);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 15px;
+    }
+    .iicon{
+        width: 20px;
+        height: 20px;
+    }
+}    
+
+@media only screen and (max-width: 320px) {
+    .bg{
+        width: 100%;
+        height: 200px;
+    }
+    .sidep{
+        font-size: 15px;
+    }
+    .main3{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .div3{
+        width: 100%;
+        height:250px;
+        
+    }
+    .div4{
+        width: 100%;
+        height: 300px;
+        
+    }
+    .cardamom{
+        width: 200px;
+        height:200px;
+        margin-top: 30px;
+        margin-left: 70px;
+    
+     }
+     .p1{
+        margin-top: -80px;
+        padding-left: 5px;
+    }
+    .hh2{
+        font-family: "Roboto", serif;
+        font-size: 11px;
+        font-weight:bold;
+        font-style: normal;
+        line-height: 20px;
+        color: #5EA45C;
+        padding-top: 5px;
+        padding-left: 5px;
+    
+    }
+    .p2{
+        font-size: 12px;
+        font-weight:300;
+        padding-right: 7px;
+        padding-left: 5px;  
+    
+    }
+    .btn1{
+       margin-left: 20px;
+       margin-top: 10px;
+    }
+    .apro{
+        font-family:"Roboto", serif ;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        margin-left: -70px;
+    }
+    .main5{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    .delivery{
+        margin-top: 6px;
+        width: 100%;
+        
+
+    }
+    .comboimg{
+        margin-left: 35px;
+        width: 250px;
+        
+        
+    }
+    .deliveryimg{
+        margin-left: 8px;
+        width: 250px;
+        
+    }
+    .liliinp{
+        width: 250px;
+        height: 280px;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .main7{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
+    }
+    .main8{
+        background-color: black;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;}
+    .part1{
+        width: 45%;
+    
+    }
+    .part2{
+        width: 45%;
+        }
+    .popular{
+        margin-top:30px;
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight:bold;
+        line-height:29px;
+        color: white;
+        display: block;
+        padding-left: 5px;
+    }
+    .apop{    
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        font-weight: 300;
+        line-height:24px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-top: 6px;
+        padding-left: 5px;
+    }
+    
+    .part3{
+        width: 40%;
+    }
+    .part4{
+        width: 60%;
+    
+    }
+    .logo{
+        width: 100px;
+        height: 130px;
+        display: block;
+        margin-top: 120px;
+        margin-left: 20px;
+        transform: scale(1.3);
+    }
+    hr{
+        width: 35px;
+        border: 1px solid #5EA45C;
+        margin-left: 5px;
+    }
+    .lastp{
+        font-family:"Roboto", serif ;
+        font-size: 12px;
+        
+    
+    }
+    .pimg{
+        display: flex;
+        margin-top: 15px;
+        text-align: justify;
+    }
+    .iicon{
+        width: 20px;
+        height: 20px;
+    }
+
+}

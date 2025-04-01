@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+    {% if err %}
+<div class="alert " style="margin-top:20px; width: 450px; height:40px; margin-left:550px;"   role="alert" >
+<p class="perr">{{err}}</p>
+</div>
+{% endif %}
+<div class="logindiv">
+    <div class="loginbox">
+        <h1 class="logh1">Hello, Welcome!</h1>
+        <p class="logp">Already have an account?</p>
+        <p class="logbtn">Login Here <i class="fa-solid fa-right-long"></i></p>
+        <img class="lil" src="{% static 'images/logo11.png' %}" alt="">
+
+    </div>
+    <div class="login">
+        <h1 class="loghead">LOGIN</h1>
+
+        <form class="form" action="/login/" method="post">
+        
+
+            {% csrf_token %}
+            <input class="form1" type="text"  name="username" placeholder=" Username ">
+            <input class="form1" type="password" name="password1" placeholder="Password">
+            <input class="logginbtn" type="submit" value="Login">
+        </form>
+        <br>
+        <a  class="newreg"  href="/register/">New Registration </a>
+    </div>
+</div>
+    
+</body>
+</html>

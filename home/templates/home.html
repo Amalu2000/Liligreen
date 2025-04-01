@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Liligreen Spices
+{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<img class="bg" src="{% static 'images/background1.png' %}" alt="">
+<!-- <img class="side" src="{% static 'images/sidehead2.png' %}" alt=""> -->
+ <p class="sidep">Exporter & Supplier of <br> High Quality Spices</p>
+<div class="main3">
+    <div class="div3">
+        <img class="cardamom" src="{% static 'images/cardamom1.jpg' %}" alt="">
+    </div>
+    <div class="div4">
+        <p class="p1">--ABOUT US--</p>
+        <h2 class="hh2"> Spices Exporter & Supplier</h2>
+        <p class="p2">At Liligreen, we are committed to bringing the finest cardamom, black pepper, mace, nutmegs, dry fruits, dry ginger, cloves, and more directly from the heart of nature to your kitchen. With a passion for delivering freshness, flavor, and authenticity, we ensure that every product we offer is sourced from the best farms and processed with care to retain its natural goodness. Our dedication to quality and sustainability drives us to work closely with local farmers, supporting ethical practices while providing you with only the best spices and dry fruits available.</p>
+        <a href="/aboutus"><button class="btn1">KNOW MORE</button></a>
+    
+    </div>
+
+</div>
+<div class="pp">
+<p class="p4"> --PRODUCTS--</p>
+<p class="p5"> OUR PRODUCTS HERE...</p>
+</div>
+<div class="main4">
+    
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/cardamompro.jpg' %}" alt="">
+        <a class="apro" href="">Cardamom</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/pepper.jpg' %}" alt="">
+        <a class="apro" href="">Black Pepper</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/cloves.jpg' %}" alt="">
+        <a class="apro" href="">Cloves</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/dryginger.jpg' %}" alt="">
+        <a class="apro" href="">Dry Ginger</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/coffeepowder.avif' %}" alt="">
+        <a class="apro" href="">Coffee Powder</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/teapowder3.jpg' %}" alt="">
+        <a class="apro" href="">Tea Powder</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/dryfruits.jpg' %}" alt="">
+        <a class="apro" href="">Mixed Dry Fruits</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/dryturmeric.jpg' %}" alt="">
+        <a class="apro" href="">Dry Turmeric</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/mace.webp' %}" alt="">
+        <a class="apro" href="">Mace</a>
+    </div>
+
+    <div class="pro">
+        <img class="proimg" src="{% static 'images/nutmeg1.jpg' %}" alt="">
+        <a class="apro" href="/productview/{{abc.id}}">Nutmegs</a>
+    </div>
+
+    
+</div>
+<p class="why">--WHY CHOOSE US--</p>
+<div class="main5">
+    <div class="delivery">
+        <img class="deliveryimg" src="{% static 'images/delivery.png' %}" alt="">
+    </div>
+    <div class="delivery">
+        <img class="comboimg" src="{% static 'images/combo.webp' %}" alt="">
+    </div>
+</div>
+
+
+    <div class="main7">
+        <div class="sec1">
+            <p class="touch">Get in Touch</p>
+            <p class="det">We’d love to hear from you! Whether you have a question, or need support, we’re here to help.</p>
+            <img class="icon" src="{% static 'images/call.png' %}" alt=""><p class="iconp">+91 6238700558</p>
+            <img class="icon" src="{% static 'images/mail.png' %}" alt=""><p class="iconp">liligreenspices@gmail.com</p>
+            <img class="icon" src="{% static 'images/location.png' %}" alt=""><p class="iconp">Kattappana, India</p>
+
+        </div>
+        <div class="sec2">
+            
+            <img class="liliinp" src="{% static 'images/liliinput.jpg' %}" alt="">
+            
+            
+        </div>
+    </div>
+    <div class="main8">
+        
+        <div class="part1">
+            <img class="logo" src="{% static 'images/logo1.jpg' %}" alt="">
+        </div>
+        <div class="part2">
+            <p class="popular"> POPULAR PRODUCTS</p><hr>
+            <a class="apop" href="/productview/{{h.id}}">Cardamom</a>
+            <a class="apop" href="/productview/{{z.id}}">Black pepper</a>
+            <a class="apop" href="/productview/{{k.id}}">Dry Ginger</a>
+            <a class="apop" href="/productview/{{o.id}}">Dry Turmeric</a>
+            <a class="apop" href="/productview/{{n.id}}">Mixed Dry Fruits</a>
+            <a class="apop" href="/productview/{{m.id}}">Tea Powder</a>
+            <a class="apop" href="/productview/{{l.id}}">Coffee Powder</a>
+            <a class="apop" href="/productview/{{q.id}}">Nutmegs</a>
+            <a class="apop" href="/productview/{{j.id}}">Cloves</a>
+            <a class="apop" href="/productview/{{p.id}}">Mace</a>
+
+        </div>
+        <div class="part3">
+            <p class="popular"> QUICK LINKS</p><hr>
+            <a class="apop" href="/">Home</a>
+            <a class="apop" href="/products">products</a>
+            <a class="apop" href="/aboutus">About us</a>
+            <a class="apop" href="/contactus">Contact Us</a>
+            
+            
+        </div>
+        <div class="part4">
+            <p class="popular"> CONTACT US</p><hr>
+            <div class="pimg">
+               <img class="iicon" src="{% static 'images/locat.png' %}" alt="">
+               <p class="lastp">Kattappana, India</p>
+           </div>
+           <div class="pimg">
+                <img class="iicon" src="{% static 'images/phone.png' %}" alt="">
+                <p class="lastp">+91 6238700558</p>
+           </div>
+           <div class="pimg">
+              <img class="iicon" src="{% static 'images/mail2.png' %}" alt="">
+               <p class="lastp">liligreenspices@gmail.com</p>
+           </div>
+           <div class="pimg">
+                <i class="fa-brands fa-instagram"></i>
+                <a class="insta" href="https://www.instagram.com/liligreenspices?igsh=amUzOXl5eWR2N21s" target="_blank"> <p class="lastp">liligreenspices</p></a>
+           </div>
+           <div class="pimg">
+                <i class="fa-brands fa-facebook-f"></i>
+                <a class="facebook" href="https://www.facebook.com/share/1Ar7PtFQFK/" target="_blank"> <p class="lastp">Liligreen Spices</p></a>
+           </div>
+            
+        </div>
+    
+
+    </div>
+{% endblock %}
